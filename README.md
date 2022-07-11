@@ -15,10 +15,10 @@ yarn dev
 if you get an error when executing this command ```bash npm run dev```
 
 Follow this steps
-```bash npm cache clean --force```
-```bash rm -rf node_modules ```
-```bash npm install```
-```bash start```
+- ```npm cache clean --force```
+- ```rm -rf node_modules ```
+- ```npm install```
+- ```npm start```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
