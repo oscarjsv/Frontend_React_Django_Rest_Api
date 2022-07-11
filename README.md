@@ -2,6 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+Install node and npm 
+
 First, run the development server:
 
 ```bash
@@ -9,6 +11,14 @@ npm run dev
 # or
 yarn dev
 ```
+
+if you get an error when executing this command ```bash npm run dev```
+
+Follow this steps
+```bash npm cache clean --force```
+```bash rm -rf node_modules ```
+```bash npm install```
+```bash start```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
